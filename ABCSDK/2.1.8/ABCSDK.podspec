@@ -35,4 +35,5 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig    = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.ios.vendored_frameworks = 'ZAD_AdtimaMobileSDK.xcframework'
   s.dependency 'GoogleAds-IMA-iOS-SDK'
+  s.dependency 'Google-Mobile-Ads-SDK'
 end
