@@ -21,11 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage               = 'https://github.com/vah1504/testSDK' 
-  # s.documentation_url      = 'https://zalogit2.zing.vn/adtima-mobile-sdk/adtima-mobile-ads-sdk-ios-document/-/wikis/home'
+  s.homepage               = 'https://github.com/vah1504/testSDK.git' #Url contain lib SDK
+  s.documentation_url      = 'https://zalogit2.zing.vn/adtima-mobile-sdk/adtima-mobile-ads-sdk-ios-document/-/wikis/home'
   s.license                = { :text => 'Copyright 2024 Google', :type => 'Copyright' }
   s.author                 = { 'KhiemND' => 'khiemnd@vng.com.vn' }
-  s.source                 = { :git => 'https://github.com/vah1504/testSDK.git', :tag => s.version.to_s }
+  # s.source                 = { :git => 'https://github.com/vah1504/testSDK.git', :tag => s.version.to_s }
+  s.source                 = { :http => 'https://nexus-repo.zapps.vn/repository/adtima-maven-hosted/com/adtima/AdtimaIOSSDK/2.1.8/AdtimaIOSSDK-2.1.8.zip' }
 
   s.ios.deployment_target  = '12.0'
   s.xcconfig               = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
@@ -33,7 +34,7 @@ TODO: Add long description of the pod here.
   s.weak_frameworks        = 'Foundation', 'MediaPlayer', 'UIKit', 'WebKit', 'CoreFoundation'
   s.libraries              = 'sqlite3.0', 'z', 'c++', 'xml2'
   s.pod_target_xcconfig    = { 'OTHER_LDFLAGS' => '-lObjC' }
-  s.ios.vendored_frameworks = 'xcframework/ZAD_AdtimaMobileSDK.xcframework'
-  s.dependency 'GoogleAds-IMA-iOS-SDK', '3.18.4'
+  s.ios.vendored_frameworks = 'ZAD_AdtimaMobileSDK.xcframework'
+  # s.dependency 'GoogleAds-IMA-iOS-SDK', '3.18.4'
 
 end
