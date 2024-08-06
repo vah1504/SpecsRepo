@@ -34,6 +34,5 @@ TODO: Add long description of the pod here.
   s.libraries              = 'sqlite3.0', 'z', 'c++', 'xml2'
   s.pod_target_xcconfig    = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.ios.vendored_frameworks = 'ZAD_AdtimaMobileSDK.xcframework'
-  # s.dependency 'GoogleAds-IMA-iOS-SDK', '3.18.4'
-
+  s.dependency 'GoogleAds-IMA-iOS-SDK'
 end
