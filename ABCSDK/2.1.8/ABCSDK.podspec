@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   # s.source                 = { :git => 'https://github.com/vah1504/testSDK.git', :tag => s.version.to_s }
   s.source                 = { :http => 'https://nexus-repo.zapps.vn/repository/adtima-maven-hosted/com/adtima/AdtimaIOSSDK/2.1.8/AdtimaIOSSDK-2.1.8.zip' }
 
-  s.ios.deployment_target  = '12.0'
+  s.ios.deployment_target  = '10.0'
   s.xcconfig               = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   s.frameworks             = 'CFNetwork', 'CoreGraphics', 'QuartzCore', 'StoreKit', 'AVFoundation', 'CoreMedia', 'MessageUI', 'CoreTelephony', 'AudioToolbox', 'AdSupport', 'MobileCoreServices', 'SystemConfiguration'
   s.weak_frameworks        = 'Foundation', 'MediaPlayer', 'UIKit', 'WebKit', 'CoreFoundation'
