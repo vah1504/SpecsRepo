@@ -21,11 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage               = 'https://github.com/vah1504/testSDK.git' #Url contain lib SDK
+  s.homepage               = 'https://zalogit2.zing.vn/adtima-mobile-sdk/adtima-mobile-ads-sdk-ios-document.git'
   s.documentation_url      = 'https://zalogit2.zing.vn/adtima-mobile-sdk/adtima-mobile-ads-sdk-ios-document/-/wikis/home'
   s.license                = { :text => 'Copyright 2024 Google', :type => 'Copyright' }
   s.author                 = { 'KhiemND' => 'khiemnd@vng.com.vn' }
-  # s.source                 = { :git => 'https://github.com/vah1504/testSDK.git', :tag => s.version.to_s }
   s.source                 = { :http => 'https://nexus-repo.zapps.vn/repository/adtima-maven-hosted/com/adtima/AdtimaIOSSDK/2.1.8/AdtimaIOSSDK-2.1.8.zip' }
 
   s.ios.deployment_target  = '10.0'
